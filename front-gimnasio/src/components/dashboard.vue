@@ -248,17 +248,20 @@
        <router-view />
     </div>
     
-    
+    <PiePagina></PiePagina>
     </template>
 
 <script>
 import Persona from './Persona.vue'
 import Usuario from './Usuario.vue'
+import PiePagina from './PiePagina.vue'
 
 export default {
     components:{
         Persona,
-        Usuario
+        Usuario,
+        PiePagina
+
     }
 }
 

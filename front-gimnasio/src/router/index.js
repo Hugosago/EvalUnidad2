@@ -7,6 +7,7 @@ import Persona from '@/components/Persona.vue'
 import Membresias from '@/components/Membresias.vue'
 import Miembros from '@/components/Miembros.vue'
 import TransaccionPagos from '@/components/TransaccionPagos.vue'
+import PiePagina from '@/components/PiePagina.vue'
 
 
 
@@ -36,7 +37,8 @@ const router = createRouter({
         {     path: '/personas', name: 'personas', component: Persona},
         {     path: '/membresias', name: 'membresias', component: Membresias},
         {     path: '/miembros', name: 'miembros', component: Miembros},
-        {     path: '/transaccionPagos', name: 'transaccionPagos', component: TransaccionPagos}
+        {     path: '/transaccionPagos', name: 'transaccionPagos', component: TransaccionPagos},
+        {     path: '/pie-pagina', name: 'pie-pagina', component: PiePagina}
       ]
     },
     {
